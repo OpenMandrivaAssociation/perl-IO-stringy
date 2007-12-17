@@ -16,7 +16,6 @@ BuildRequires:	perl-devel
 %else
 BuildRequires:	perl
 %endif
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 
 %description
