@@ -1,7 +1,7 @@
 %define realname IO-stringy
 %define	name	perl-%{realname}
 %define	version	2.110
-%define	release	%mkrel 7
+%define	release	%mkrel 8
 
 Summary:	Perl module for I/O on in-core objects like strings and arrays
 Name:		%{name}
