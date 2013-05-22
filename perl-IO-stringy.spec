@@ -1,12 +1,11 @@
 %define realname IO-stringy
 %define	name	perl-%{realname}
 %define	version	2.110
-%define	release	11
 
 Summary:	Perl module for I/O on in-core objects like strings and arrays
 Name:		%{name}
 Version:	%{version}
-Release:	%{release}
+Release:	12
 License:	Artistic/GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{realname}/
