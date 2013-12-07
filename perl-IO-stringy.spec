@@ -4,7 +4,7 @@
 Summary:	Perl module for I/O on in-core objects like strings and arrays
 Name:		perl-%{realname}
 Version:	%{version}
-Release:	12
+Release:	13
 License:	Artistic/GPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{realname}/
