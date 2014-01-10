@@ -1,2 +1,4 @@
+removed_sources:
+  IO-stringy-2.110.tar.bz2: d56401660e4da473e99f91982087953127e586d9
 sources:
-  "IO-stringy-2.110.tar.bz2": d56401660e4da473e99f91982087953127e586d9
+  IO-stringy-2.110.tar.gz: 3ef94404e51e3a6276ddddcce9ba7bbdd6b76a1f

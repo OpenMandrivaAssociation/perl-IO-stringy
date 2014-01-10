@@ -3,12 +3,12 @@
 
 Summary:	Perl module for I/O on in-core objects like strings and arrays
 Name:		perl-%{realname}
-Version:	%{version}
-Release:	16
+Version:	%perl_convert_version 2.110
+Release:	1
 License:	Artistic/GPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{realname}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/IO/%{realname}-%{version}.tar.bz2
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/IO/IO-stringy-2.110.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl
@@ -50,4 +50,5 @@ a string, a globref, or a FileHandle.
 %doc README
 %{perl_vendorlib}/IO
 %{_mandir}/man3/*
+
 
