@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	24
 License:	Artistic/GPLv2
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{realname}/
+Url:		https://search.cpan.org/dist/%{realname}/
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/IO/%{realname}-%{upstream_version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	perl-devel
