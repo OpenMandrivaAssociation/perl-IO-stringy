@@ -1,14 +1,13 @@
-%define realname IO-stringy
-%define	upstream_version	2.110
+%define realname IO-Stringy
 
 Summary:	Perl module for I/O on in-core objects like strings and arrays
 Name:		perl-%{realname}
-Version:	%perl_convert_version %{upstream_version}
-Release:	24
+Version:	2.113
+Release:	1
 License:	Artistic/GPLv2
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{realname}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/IO/%{realname}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/IO::Stringy
+Source0:	https://cpan.metacpan.org/authors/id/C/CA/CAPOEIRAB/IO-Stringy-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl
@@ -34,20 +33,19 @@ syntax and stop worrying about whether your function's caller handed you
 a string, a globref, or a FileHandle.
 
 %prep
-%setup -q -n %{realname}-%{upstream_version}
+%autosetup -p1 -n %{realname}-%{version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
-%make
+%make_build
 
 %check
-%make test
+%make_build test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc README
 %{perl_vendorlib}/IO
 %{_mandir}/man3/*
-
