@@ -11,6 +11,8 @@ Source0:	https://cpan.metacpan.org/authors/id/C/CA/CAPOEIRAB/IO-Stringy-%{versio
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl
+BuildRequires:	perl(Test::More)
+%rename perl-IO-stringy
 
 %description
 This toolkit primarily provides modules for performing both traditional
